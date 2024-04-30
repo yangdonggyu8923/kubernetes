@@ -1,0 +1,20 @@
+junit.jupiter.testinstance.lifesycle.default = per_class
+junit.jupiter.condition.deactivate = org.junit.*DisabledCondition
+junit.jupiter.displayname.generator.default = \
+    org.junit.jupiter.api.DisplayNameGenerator$ReplaceUnderscores
+
+
+
+
+#junit:
+#    jupiter:
+#        execution:
+#        parallel:
+#            enable: true
+#            mode:
+#                default: same_thread
+#                classes:
+#                    default: same_thread
+#            config:
+#                dynamic:
+#                factor: 3
